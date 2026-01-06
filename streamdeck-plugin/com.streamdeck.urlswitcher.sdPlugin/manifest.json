@@ -4,7 +4,7 @@
   "Description": "Switch to browser tabs by URL or open new tabs",
   "Author": "StreamDeck URL Switcher",
   "Version": "1.0.0.0",
-  "Category": "Browser",
+  "Category": "Tab Switcher",
   "CategoryIcon": "images/category-icon",
   "Icon": "images/plugin-icon",
   "URL": "https://github.com/your-repo/streamdeck-url-switcher",
