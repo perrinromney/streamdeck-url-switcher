@@ -1,0 +1,9 @@
+{
+  "name": "com.streamdeck.urlswitcher",
+  "version": "1.0.0",
+  "description": "StreamDeck URL Switcher Plugin",
+  "main": "plugin.js",
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}

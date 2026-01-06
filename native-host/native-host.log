@@ -1,0 +1,20 @@
+[2026-01-06T05:49:30.443Z] Native messaging host started
+[2026-01-06T05:49:30.453Z] WebSocket server listening on port 9334
+[2026-01-06T05:58:43.308Z] [INFO] ══════════════════════════════════════════════════
+[2026-01-06T05:58:43.308Z] [SUCCESS] Native messaging host started
+[2026-01-06T05:58:43.309Z] [INFO] Log file: C:\Users\perri\Documents\GitHub\streamdeck-url-switcher\native-host\native-host.log
+[2026-01-06T05:58:43.309Z] [INFO] WebSocket port: 9334
+[2026-01-06T05:58:43.309Z] [INFO] ══════════════════════════════════════════════════
+[2026-01-06T05:58:43.321Z] [SUCCESS] WebSocket server listening on port 9334
+[2026-01-06T06:15:15.939Z] [SUCCESS] StreamDeck plugin connected from ::1
+[2026-01-06T06:15:15.939Z] [INFO] Active connections: 1
+[2026-01-06T06:15:21.210Z] [INFO] Received SIGINT, shutting down...
+[2026-01-06T06:15:21.211Z] [INFO] Native messaging host exiting with code 0
+[2026-01-06T06:15:22.625Z] [INFO] ══════════════════════════════════════════════════
+[2026-01-06T06:15:22.626Z] [SUCCESS] Native messaging host started
+[2026-01-06T06:15:22.627Z] [INFO] Log file: C:\Users\perri\Documents\GitHub\streamdeck-url-switcher\native-host\native-host.log
+[2026-01-06T06:15:22.627Z] [INFO] WebSocket port: 9334
+[2026-01-06T06:15:22.627Z] [INFO] ══════════════════════════════════════════════════
+[2026-01-06T06:15:22.629Z] [SUCCESS] WebSocket server listening on port 9334
+[2026-01-06T06:15:24.082Z] [INFO] Received SIGINT, shutting down...
+[2026-01-06T06:15:24.083Z] [INFO] Native messaging host exiting with code 0

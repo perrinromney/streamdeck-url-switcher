@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+  "Name": "URL Switcher",
+  "Description": "Switch to browser tabs by URL or open new tabs",
+  "Author": "StreamDeck URL Switcher",
+  "Version": "1.0.0.0",
+  "Category": "Browser",
+  "CategoryIcon": "images/category-icon",
+  "Icon": "images/plugin-icon",
+  "URL": "https://github.com/your-repo/streamdeck-url-switcher",
+  "CodePath": "plugin.js",
+  "PropertyInspectorPath": "property-inspector.html",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    },
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.15"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "6.6"
+  },
+  "Actions": [
+    {
+      "UUID": "com.streamdeck.urlswitcher.switch",
+      "Name": "Switch to URL",
+      "Tooltip": "Switch to an existing tab with this URL or open a new tab",
+      "Icon": "images/action-icon",
+      "PropertyInspectorPath": "property-inspector.html",
+      "States": [
+        {
+          "Image": "images/action-icon",
+          "TitleAlignment": "bottom"
+        }
+      ]
+    }
+  ],
+  "UUID": "com.streamdeck.urlswitcher",
+  "SDKVersion": 2,
+  "Nodejs": {
+    "Version": "20",
+    "Debug": "enabled"
+  }
+}

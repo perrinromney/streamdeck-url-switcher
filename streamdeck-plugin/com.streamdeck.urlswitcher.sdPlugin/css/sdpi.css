@@ -1,0 +1,82 @@
+/* Stream Deck Property Inspector CSS (simplified) */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  color: #ccc;
+  background-color: #2d2d2d;
+}
+
+.sdpi-wrapper {
+  padding: 12px;
+}
+
+.sdpi-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.sdpi-item-label {
+  flex: 0 0 80px;
+  padding: 6px 8px 6px 0;
+  font-weight: 500;
+  color: #999;
+  text-align: right;
+  font-size: 12px;
+}
+
+.sdpi-item-value {
+  flex: 1;
+  min-width: 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #1a1a1a;
+  color: #eee;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #0078d4;
+}
+
+input[type="text"]::placeholder {
+  color: #666;
+}
+
+details {
+  margin-top: 16px;
+}
+
+summary {
+  cursor: pointer;
+  user-select: none;
+}
+
+summary:hover {
+  color: #fff;
+}
+
+p {
+  margin: 8px 0;
+  font-size: 12px;
+}
+
+ol, ul {
+  margin: 8px 0;
+  padding-left: 24px;
+}
+
+li {
+  margin: 4px 0;
+}

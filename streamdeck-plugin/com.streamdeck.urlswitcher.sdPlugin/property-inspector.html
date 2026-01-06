@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>URL Switcher Settings</title>
+  <link rel="stylesheet" href="css/sdpi.css">
+  <style>
+    .status-indicator {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    .status-indicator.connected {
+      background-color: #4caf50;
+    }
+    .status-indicator.disconnected {
+      background-color: #f44336;
+    }
+    .status-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      padding: 8px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 4px;
+    }
+    .help-text {
+      font-size: 11px;
+      color: #888;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sdpi-wrapper">
+    
+    <!-- Connection Status -->
+    <div class="sdpi-item">
+      <div class="sdpi-item-label">Status</div>
+      <div class="sdpi-item-value">
+        <div class="status-row">
+          <span id="statusIndicator" class="status-indicator disconnected"></span>
+          <span id="statusText">Checking connection...</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- URL Input -->
+    <div class="sdpi-item">
+      <div class="sdpi-item-label">URL</div>
+      <input class="sdpi-item-value" 
+             type="text" 
+             id="url" 
+             placeholder="https://example.com">
+    </div>
+    <div class="sdpi-item">
+      <div class="sdpi-item-label"></div>
+      <div class="sdpi-item-value">
+        <span class="help-text">
+          Enter the URL to switch to. If a tab with this URL is open, it will be activated. Otherwise, a new tab will open.
+        </span>
+      </div>
+    </div>
+    
+    <!-- Title Input -->
+    <div class="sdpi-item">
+      <div class="sdpi-item-label">Button Title</div>
+      <input class="sdpi-item-value" 
+             type="text" 
+             id="title" 
+             placeholder="Optional title for button">
+    </div>
+    
+    <!-- Setup Instructions -->
+    <details class="sdpi-item">
+      <summary class="sdpi-item-label">Setup Help</summary>
+      <div class="sdpi-item-value" style="padding: 8px;">
+        <p><strong>Requirements:</strong></p>
+        <ol style="margin: 8px 0; padding-left: 20px; font-size: 12px;">
+          <li>Install the Chrome/Edge extension</li>
+          <li>Ensure Edge/Chrome is running</li>
+        </ol>
+        <p style="font-size: 11px; color: #888;">
+          The status indicator above shows if the browser extension is connected.
+        </p>
+      </div>
+    </details>
+    
+  </div>
+  
+  <script src="js/property-inspector.js"></script>
+</body>
+</html>

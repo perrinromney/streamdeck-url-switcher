@@ -1,0 +1,9 @@
+{
+  "name": "com.streamdeck.urlswitcher-native-host",
+  "version": "1.0.0",
+  "description": "Native messaging host for StreamDeck URL Switcher",
+  "main": "native-host.js",
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}
